@@ -1,0 +1,21 @@
+/* ========= Font ========= */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* ========= Variable ========= */
+:root {
+    --body-font: 'Righteous', cursive;
+}
+
+/* ========= Base ========= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}
+
+/* ========= Website ========= */
+.website {
+    height: 100vh;
+    overflow: hidden;
+}
